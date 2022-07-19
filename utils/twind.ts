@@ -8,7 +8,9 @@ export const config: Configuration = {
   darkMode: "class",
   mode: "silent",
   preflight: {
-    body: apply('bg-gray-800 text-white'),
+    body: apply(`
+    bg-white text-black
+    dark:(bg-gray-800 text-amber-500)`),
   },
   plugins: {
   //   btn: apply`

@@ -51,11 +51,16 @@ export interface Price {
   }
   
 
+
 export const handler: Handlers<Price | null> = {
     async GET(_, ctx) {
         const resp = await fetch(url)
         if (resp.status === 200) {
             const price : Price = await resp.json();
+            const mutableHeaders = new Headers();
+            resp.headers.forEach((value, key, parent) => mutableHeaders.set(key, value));
+
+            mutableHeaders.set("title", "custom value")
             return ctx.render(price);
         } else {
             return ctx.render(null);
