@@ -25,10 +25,11 @@ export default function Header() {
         <header class={tw`fixed top-0  text-white h-[50px] w-screen bg-[#673ab8]`}>
         <nav class={tw`inline-block`}>
             <a href="/" class={tw`${link}`}>Home</a>
-            <a href="/bitcoin/" class={tw`${link}`}>Bitcoin Price</a>
+            <a href="/bitcoin/" class={tw`${link}`}>Bitcoin Price 🪙</a>
             {/* <a href="/">About</a> */}
             {/* <a href="/">Database</a> */}
             <a href="/discord-nav/" class={tw`${link}`}>Discord</a>
+            <a href="/bagels/" class={tw`${link}`}>Bagels 🥯</a>
 
             {/* <Link href="/">Login</Link> */}
         </nav>

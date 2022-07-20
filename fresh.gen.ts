@@ -2,18 +2,24 @@
 // This file SHOULD be checked into source version control.
 // This file is automatically updated during development when running `dev.ts`.
 
-import * as $0 from "./routes/bitcoin.tsx";
-import * as $1 from "./routes/discord-nav.tsx";
-import * as $2 from "./routes/html.tsx";
-import * as $3 from "./routes/index.tsx";
+import * as $0 from "./routes/bagels/bagels.tsx";
+import * as $1 from "./routes/bagels/index.tsx";
+import * as $2 from "./routes/bagels/stats.tsx";
+import * as $3 from "./routes/bitcoin.tsx";
+import * as $4 from "./routes/discord-nav.tsx";
+import * as $5 from "./routes/html.tsx";
+import * as $6 from "./routes/index.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
   routes: {
-    "./routes/bitcoin.tsx": $0,
-    "./routes/discord-nav.tsx": $1,
-    "./routes/html.tsx": $2,
-    "./routes/index.tsx": $3,
+    "./routes/bagels/bagels.tsx": $0,
+    "./routes/bagels/index.tsx": $1,
+    "./routes/bagels/stats.tsx": $2,
+    "./routes/bitcoin.tsx": $3,
+    "./routes/discord-nav.tsx": $4,
+    "./routes/html.tsx": $5,
+    "./routes/index.tsx": $6,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

@@ -23,7 +23,8 @@ export const config: Configuration = {
   },
   theme: {
     fontFamily: {
-      sans: ['Calibri', 'Helvetica', 'sans-serif'],
+      // sans: ['Calibri', 'Helvetica', 'sans-serif'],
+      sans: ["ui-sans-serif","system-ui","-apple-system","BlinkMacSystemFont","Segoe UI","Roboto","Helvetica Neue","Arial","Noto Sans","sans-serif","Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"],
       serif: ['Times', 'serif'],
     },
     extend: {
