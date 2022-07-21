@@ -2,7 +2,6 @@
 import { h, FunctionComponent, createContext } from "preact";
 import { useState } from 'preact/hooks';
 import { apply, tw } from "@twind";
-import Header from "../components/Header.tsx"
 import { PageProps } from "$fresh/server.ts"
 
 export default function Page(params:PageProps) {

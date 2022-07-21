@@ -69,6 +69,9 @@ export default function App() {
                     </div>
 
                 </div>
+                <div class={tw`flex items-center justify-center`}>
+                <a href="/" class={tw`p-3 text-base no-underline text-amber-500 hover:text-amber-400`}>Return home</a>
+                </div>
             </section>
         </main>
     )

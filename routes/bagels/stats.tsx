@@ -30,6 +30,9 @@ export default function App() {
                         <dd class={tw`mt-1 text-3xl font-semibold text-gray-900`}>94.16%</dd>
                     </div>
                 </dl>
+                <div class={tw`flex items-center justify-center`}>
+                <a href="/" class={tw`absolute bottom-5 p-3 text-base no-underline text-amber-500 hover:text-amber-400`}>Return home</a>
+                </div>
             </section>
         </main>
     )
