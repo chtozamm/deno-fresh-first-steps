@@ -30,12 +30,12 @@ export default function Header() {
         <nav class={tw`font-sans`}>
             <div class={tw`hidden sm:flex justify-center`}>
                 <a href="/" class={tw`${link}`}>Home</a>
-                <a href="/bitcoin/" class={tw`${link}`}>Bitcoin</a>
+                <a href="#" class={tw`${link}`}>Bitcoin</a>
                 {/* <a href="/">About</a> */}
                 {/* <a href="/">Database</a> */}
-                <a href="/discord-nav/" class={tw`${link}`}>Discord</a>
+                <a href="#" class={tw`${link}`}>Discord</a>
                 <a href="/bagels/" class={tw`${link}`}>Bagels</a>
-                <a href="https://github.com/chtozamm/deno-fresh-first-steps" class={tw`${link} hover:scale-75 transition-all duration-100 ease-linear`}>
+                <a href="#" class={tw`${link} hover:scale-75 transition-all duration-100 ease-linear`}>
                     <img src="github.svg" alt="GitHub" class={tw`h-6 w-6`} />
                 </a>
             </div>
