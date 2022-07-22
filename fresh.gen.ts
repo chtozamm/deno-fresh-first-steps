@@ -9,8 +9,9 @@ import * as $3 from "./routes/bitcoin.tsx";
 import * as $4 from "./routes/discord-nav.tsx";
 import * as $5 from "./routes/html.tsx";
 import * as $6 from "./routes/index.tsx";
-import * as $$0 from "./islands/Counter.tsx";
-import * as $$1 from "./islands/Header.tsx";
+import * as $$0 from "./islands/BagelHeader.tsx";
+import * as $$1 from "./islands/Counter.tsx";
+import * as $$2 from "./islands/Header.tsx";
 
 const manifest = {
   routes: {
@@ -23,8 +24,9 @@ const manifest = {
     "./routes/index.tsx": $6,
   },
   islands: {
-    "./islands/Counter.tsx": $$0,
-    "./islands/Header.tsx": $$1,
+    "./islands/BagelHeader.tsx": $$0,
+    "./islands/Counter.tsx": $$1,
+    "./islands/Header.tsx": $$2,
   },
   baseUrl: import.meta.url,
 };
